@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículo - Miguel do Nascimento</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Personalize a cor principal */
+
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      :root {
+        --primary-color: #06b6d4;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+
+      .header {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      .fundo-cyan {
+        background-color: #e0f2fe;
+      }
+      .text-azul {
+        color: #0a3099;
+      }
+    </style>
+  </head>
+  <body class="fundo-cyan font-sans leading-relaxed">
+    <!-- Header -->
+    <header class="p-6 text-gray-600">
+      <div class="max-w-4xl mx-auto text-center flex flex-col md:flex-row items-center">
+        <!-- Foto de Perfil -->
+        <img
+          src="foto.jpg"
+          alt="Foto de perfil"
+          class="w-32 h-32 rounded-full border-4 border-primary-color mb-4"
+        />
+        <!-- Nome e Informações -->
+        <div class="max-w-4xl mx-auto text-center flex flex-col items-center">
+          <h1 class="text-4xl font-bold mb-2 text-azul">
+            Miguel do Nascimento
+          </h1>
+          <p class="text-lg">
+            Contacto: +351 931-966-794 | Email: nascimentomiguel479@gmail.com
+          </p>
+          <p class="text-lg">Endereço: Jose Antonio Aleixo, N° 6 - 2 ESQ</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto my-8 p-4 space-y-6">
+      <!-- Educação -->
+      <section class="bg-white shadow-md rounded-lg p-6">
+        <h2
+          class="text-2xl font-semibold text-primary-color border-b-2 border-primary-color pb-2 mb-4"
+        >
+          Educação
+        </h2>
+        <ul class="space-y-3">
+          <li class="flex items-start gap-2">
+            <span class="font-semibold">2017-2019:</span>
+            <p>Liceu n° 5112, Capalanga (Ensino médio, graduado com honras)</p>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="font-semibold">2021-2023:</span>
+            <p>
+              Universidade de Luanda - ISUTIC (Engenharia de telecomunicações)
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Experiência -->
+      <section class="bg-white shadow-md rounded-lg p-6">
+        <h2
+          class="text-2xl font-semibold text-primary-color border-b-2 border-primary-color pb-2 mb-4"
+        >
+          Experiência
+        </h2>
+        <ul class="space-y-3">
+          <li class="flex items-start gap-2">
+            <span class="font-semibold">2022:</span>
+            <p>Operador de empilhadeira na Loja Nossa Casa (Área de estoque)</p>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="font-semibold">2020:</span>
+            <p>
+              Gestor de stock na Refriango (Controle de entrada e saída de
+              produtos)
+            </p>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="font-semibold">2023:</span>
+            <p>
+              Assistente Administrativo no Hotel Mariuska (Atendimento,
+              gerenciamento e organização administrativa)
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Formações Técnicas -->
+      <section class="bg-white shadow-md rounded-lg p-6">
+        <h2
+          class="text-2xl font-semibold text-primary-color border-b-2 border-primary-color pb-2 mb-4"
+        >
+          Formações Técnicas
+        </h2>
+        <ul class="space-y-3">
+          <li>Operador de empilhadeiras</li>
+          <li>Eletricidade</li>
+          <li>Eletrónica analógica</li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4">
+      <p>&copy; 2024 Miguel do Nascimento. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
